@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: darkslategrey;
+        color: bisque;
+    }
+</style>
+
+<body>
+    <h2 id="text"></h2>
+    <script src="home.js"></script>
+    <script src="students.json"></script>
+    <script type="text/javascript">
+        let students = `[
+
+                {
+                    "name": "Dima",
+                    "age": 22,
+                    "higjht": 130
+                }, {
+                    "name": "Vlad",
+                    "age": 25,
+                    "higjht": 120
+                }
+            ]`
+            /*
+                                                     function load() {
+                                                      let mydata = json.parse(data);
+                                                          }*/
+            //let students = JSON.parse(data);
+        console.log(JSON.parse(students)[0].name);
+    </script>
+
+</body>
+
+</html>
