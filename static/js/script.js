@@ -103,8 +103,8 @@ let buttons = document.getElementsByTagName('button');
 let bjgame = {
     'you': { 'scorespan': '#bjresult', 'div': '#urbox', 'score': 0 },
     'dealer': { 'scorespan': '#dbjresult', 'div': '#dbox', 'score': 0 },
-    'cards': ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'],
-    'cardsmap': { '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, '10': 10, 'J': 10, 'Q': 10, 'K': 10, 'A': [1, 11] },
+    'cards': ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'j', 'q', 'k', 'a'],
+    'cardsmap': { '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, '10': 10, 'j': 10, 'q': 10, 'k': 10, 'a': [1, 11] },
     'wins': 0,
     'losses': 0,
     'draws': 0,
