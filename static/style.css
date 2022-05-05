@@ -47,8 +47,8 @@
     background-color: rgb(0, 50, 0);
     margin: 10 auto;
     padding: 10px;
-    flex: 1;
-    border: white solid 1px;
+    flex: auto;
+    border: white solid 0.5px;
 }
 
 .table,
