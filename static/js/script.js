@@ -175,7 +175,7 @@ function deal() {
 
 function updateScore(card, player) {
     //if under 21 A = 11 if over A=1
-    if (card === 'A') {
+    if (card === 'a') {
         if (player['score'] + bjgame['cardsmap'][card][1] <= 21) {
             player['score'] += bjgame['cardsmap'][card][1];
         } else { player['score'] += bjgame['cardsmap'][card][0]; }
