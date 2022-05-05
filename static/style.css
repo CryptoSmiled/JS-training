@@ -1,6 +1,5 @@
 .flex-box-container1,
-.bj,
-.urbox {
+.bj{
     display: flex;
     padding: 10px;
     justify-content: space-around;
@@ -43,11 +42,10 @@
 }
 
 .bj div {
-    height: fit-content;
+    min-height: 250px;
     background-color: rgb(0, 50, 0);
-    margin: 10px auto;
-    padding: 10px;
-    flex:  1 auto;
+    padding: 5px;
+    flex: auto;
     border: white solid 1px;
 }
 
