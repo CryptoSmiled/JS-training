@@ -43,7 +43,7 @@
 }
 
 .bj div {
-    height: auto;
+    height: fit-content;
     background-color: rgb(0, 50, 0);
     margin: 10px auto;
     padding: 10px;
